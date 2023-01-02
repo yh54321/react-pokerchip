@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/*jshint esversion: 7 */
 
 import React from 'react';
 import './PokerChip.css';
