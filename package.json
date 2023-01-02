@@ -2,7 +2,7 @@
   "name": "react-pokerchip",
   "version": "1.0.0",
   "description": "A stateless, dependency-free React functional component rendering a poker/casino chip",
-  "main": "index.js",
+  "main": "src/PokerChip.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
