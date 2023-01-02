@@ -13,7 +13,7 @@ import PokerChip from 'react-pokerchip';
 <PokerChip value={5} color='#F00' />
 <PokerChip value={10} color='#00F' currency='$' />
 <PokerChip value={1000000} color='#FF0' currency='€' />
-<PokerChip text='T' color='#40E0D0' lineColor='#51d3c6' /> 
+<PokerChip text='T' color='#40E0D0' lineColor='#51D3C6' /> 
 ```
 
 # Props
