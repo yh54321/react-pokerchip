@@ -1,0 +1,39 @@
+.pokerchip {
+    display: inline-block;
+  }
+  .pokerchipOuter {
+    box-sizing: initial !important;
+    transform-origin: top left;
+    position: relative;
+    width: 151px;
+    height: 151px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5), 0 0 3px 0 rgba(0, 0, 0, 0.4) inset;
+    border-radius: 50%;
+    background-size: 151px 151px;
+    background-position: center center;
+  }
+  .innerChipBorder {
+    position: absolute;
+    z-index: 1;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    top: 9px;
+    left: 9px;
+    background-size: 151px 151px;
+    background-position: center center;
+  }
+  .chipContent {
+    user-select: none;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    font: bold 50px/111px Arial;
+    white-space: pre;
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.3), 1px 1px 0px rgba(255, 255, 255, 0.2);
+  }
