@@ -5,6 +5,9 @@ A dependency-free, stateless React functional component rendering a poker/casino
 
 Chip design by [PMK](https://codepen.io/pmk) at https://codepen.io/pmk/pen/GgrJRq
 
+
+[![npm version](https://img.shields.io/npm/v/react-pokerchip.svg?style=flat)](https://www.npmjs.com/package/react-pokerchip)
+
 # Usage Example
 ```JavaScript
 import PokerChip from 'react-pokerchip';
