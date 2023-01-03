@@ -2,9 +2,10 @@
   "name": "react-pokerchip",
   "version": "1.0.0",
   "description": "A stateless, dependency-free React functional component rendering a poker/casino chip",
-  "main": "src/PokerChip.js",
+  "main": "lib/PokerChip.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npx babel src --out-dir lib --copy-files"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,10 @@
   },
   "homepage": "https://github.com/yh54321/react-pokerchip#readme",
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
