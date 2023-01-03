@@ -15,6 +15,13 @@ import PokerChip from 'react-pokerchip';
 <PokerChip value={1000000} color='#FF0' currency='€' />
 <PokerChip text='T' color='#40E0D0' lineColor='#51D3C6' /> 
 ```
+# Installation
+To install: `npm i react-pokerchip`
+
+To build (for devs, runs automatically on install): `npx babel src --out-dir lib --copy-files`
+
+# Styling
+Styling can be added or modified through the `.pokerchip` CSS class
 
 # Props
 All props are optional and can be `undefined`.
@@ -50,6 +57,3 @@ Function to be invoked upon clicking chip. Sets `cursor` to `pointer`
 ## disabled : boolean
 #### Default value: `undefined`
 Styles chip as 'disabled', by making chip transparent and setting `cursor` to `not-allowed`. Does not affect `onClick` functionality
-
-# Styling
-Styling can be added or modified through the `.pokerchip` CSS class
