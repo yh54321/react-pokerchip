@@ -12,7 +12,12 @@
     "url": "git+https://github.com/yh54321/react-pokerchip.git"
   },
   "keywords": [
-    "poker"
+    "casino",
+    "gamble",
+    "blackjack",
+    "poker",
+    "chip",
+    "react"
   ],
   "author": "yh54321",
   "license": "MIT",
