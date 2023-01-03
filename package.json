@@ -1,6 +1,6 @@
 {
   "name": "react-pokerchip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dependency-free, stateless React functional component rendering a poker/casino chip",
   "main": "lib/PokerChip.js",
   "types": "lib/PokerChip.d.ts",
