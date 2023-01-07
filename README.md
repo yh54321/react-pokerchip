@@ -1,7 +1,7 @@
 # react-pokerchip
 A dependency-free, stateless React functional component rendering a poker/casino chip
 
-[![react-autocomplete-input](https://github.com/yh54321/react-pokerchip/blob/main/example.png)](https://github.com/yh54321/react-pokerchip)
+[![react-pokerchip](https://github.com/yh54321/react-pokerchip/blob/main/example.png)](https://github.com/yh54321/react-pokerchip)
 
 Chip design by [PMK](https://codepen.io/pmk) at https://codepen.io/pmk/pen/GgrJRq
 
